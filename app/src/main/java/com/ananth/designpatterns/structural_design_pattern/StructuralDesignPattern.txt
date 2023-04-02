@@ -1,0 +1,3 @@
+Structural design pattern
+
+-> Structural design patterns deal with how classes and objects are arranged or composed

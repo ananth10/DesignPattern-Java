@@ -1,0 +1,15 @@
+Dependency Inversion Principle
+
+1. High level modules should not depend upon low level modules.
+both should be depend upon abstractions.
+
+2. Abstraction should not depend upon details.
+but details should be depend upon abstraction
+
+High level module:
+
+-> Basically means a module that provides or implement business rules, that is what we write.
+
+Low level module:
+
+-> Basically a functionality that is so basic that can be used anywhere, eg. writingToDisc and eg. converting java class into json object

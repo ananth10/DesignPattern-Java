@@ -1,0 +1,3 @@
+Single Responsibility Principle
+
+-> A class or function should do only one thing, which means the class should have only one reason to modify.

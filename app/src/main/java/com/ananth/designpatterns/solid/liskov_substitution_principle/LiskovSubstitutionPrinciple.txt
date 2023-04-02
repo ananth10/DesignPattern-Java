@@ -1,0 +1,3 @@
+Liskov Substitution Principle
+
+-> We should be to substitute base class objects with child class objects and this should not alter the behavior/characteristics of program

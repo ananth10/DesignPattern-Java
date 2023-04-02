@@ -1,0 +1,14 @@
+Interface Segregation Principle
+
+1. Client/Class should not be forced to depend upon interfaces that they do not use.
+
+Mostly called Interface Pollution
+
+->Which means making one big interface will many methods and implement that interface across all classes
+where some methods are really not required.
+
+Signs of interface pollution
+
+->Classes have empty method implementation
+->Method implementation throws UnsupportedOperationException
+->Method implementation return null or default values.
