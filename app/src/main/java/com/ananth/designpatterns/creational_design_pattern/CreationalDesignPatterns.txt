@@ -1,3 +1,17 @@
 Creational design pattern
 
--> Creational design patterns deal with the process of creation objects of class
+-> Creational design patterns deal with the process of creation objects of class.
+-> When we create an object there might be many steps are involved like reading from api or querying database before
+creating final object of a class
+-> There will be one network configuration file for an whole application so that we need to create that config file with many
+other attributes with it.
+
+Types:
+
+-> Builder
+-> Simple factory
+-> Factory method
+-> Prototype
+-> Singleton
+-> Abstract Factory
+-> Object pool

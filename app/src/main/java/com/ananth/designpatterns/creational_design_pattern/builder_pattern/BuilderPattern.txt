@@ -1,0 +1,49 @@
+Builder pattern
+
+
+->We are going to use builder when creating object of the class.
+
+-> We have a complex process to construct an object involving multiple steps, then builder design pattern can help us
+-> In builder we remove the logic related to object construction from 'client' code
+& separate it in the separate classes.
+
+What problem builder design pattern solves?
+
+1-> when we need to create a class that class property should be immutable. which means
+once class create with some state then those state should not be changed afterwards.
+
+-> e.g String class is good example
+
+2-> Sometime classes constructors accepting multiple parameters. this is bad code
+this make code changeable and unmaintainable
+-> anyone using those constructor they need to understand and look all parameters carefully before passing those in correct sequence.
+
+Implement a Builder
+
+1. We start by creating the builder
+
+-> Identify the "parts" of the product & provide methods to create those parts
+-> we should provide a method to assemble or build the final product.
+-> It must provide a way/method to get fully build object out. Optionally
+builder can keep reference to an product it has build so the same can be returned again in the future
+->A director can be a separated class or client can play role of the director.
+
+Implementation consideration
+->You can easily create an immutable class by implementing builder as an inner class
+we will find this type of implementation used quite frequently even if immutability is not a main concern
+-> It provides a nice name space.
+
+Design consideration
+->The director role is rarely implemented as separate class , typically the consumer of the object
+instance or the client handles that role.
+
+->Abstract builder is also not required if "product" itself is not part of any inheritance hierarchy. you
+can directly create concrete builder
+
+->If we are running into a "too many constructor arguments" problem then its a good
+indication that builder pattern can help.
+
+REAL WORLD EXAMPLES OF BUILDER PATTERNS
+
+1. StringBuilder class from Java - but not 100 percent
+2. Calendar builder util class
