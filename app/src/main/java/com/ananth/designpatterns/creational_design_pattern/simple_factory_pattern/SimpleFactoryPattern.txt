@@ -1,0 +1,49 @@
+Simple Factory Pattern.
+
+1. what problem Simply Factory solves?
+
+->Multiple types can be instantiated and the choice is based on some simple criteria.
+
+if(key.equals("pudding")){
+//creating pudding object
+}
+if(key.equals("cake")){
+//creating cake object
+}
+
+What is a Simple Factory?
+
+-> Here we simply move the instantiation logic to separate class and most commonly to a static method of this class.
+-> Some do not consider simply factory to be a design pattern , as its simply a method that
+encapsulates object instantiation, nothing complex goes on in that method.
+-> Typically we want to do this if we have more than one option  when instantiating object and a simple logic is used to choose correct class
+
+Implement Simple Factory
+
+1. We start by creating a separate class for our simple factory
+
+ ->Add a method which returns desired object instance.
+   ->This method typically is static  and will accept some argument to decide which class to instantiate
+   ->We can provide additional arguments which will be used to instantiate the object.
+
+Implementation consideration
+
+-> Simple factory can be just a method in existing class, Adding a separate class
+however allows other parts of your code to use simple factory more easily.
+
+->Simple Factory does not need any state track , thats why we keep as the static method.
+
+Design Consideration
+
+->Simple factory will in turn may use other design pattern like builder to construct objects.
+->In case you want to specialize your simple factory in sub classes, you need factory method design pattern instead.
+
+
+REAL WORLD EXAMPLE FOR SIMPLE FACTORY
+
+-> The java.text.NumberFormat class has getInstance method, which is an example of simple factory.
+
+PITFALL
+
+->The criteria used by simple factory to decide which object to instantiate can get more complex over time.
+If you find yourself in such situation then use factory method design pattern.
