@@ -1,0 +1,14 @@
+What is Prototype?
+
+->We have a complex object that is costly to create. To create more instances of class, we use
+an existing instance as our prototype
+
+->Prototype will allow us to make copies of existing object & save us from having to recreate objects from scratch.
+
+
+Implement a Prototype
+
+->We start by creating a class which will be a prototype
+  1. This class must implement Cloneable interface
+  2. Class should override clone method and return copy itself.
+  3. Clone method implementation should consider the deep&shallow copy and choose whichever applicable
