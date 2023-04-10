@@ -1,0 +1,7 @@
+What is a Singleton pattern?
+
+->A Singleton class has only one instance, accessible globally though a single point (via a method/field)
+
+->Main problem this pattern solves is to ensure that only single instance of this class exists
+
+->Any state you add in your singleton becomes part of "global state" of your application.
