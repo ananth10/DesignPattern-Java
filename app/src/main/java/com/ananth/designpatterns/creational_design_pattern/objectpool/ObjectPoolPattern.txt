@@ -1,0 +1,5 @@
+What is an object pool?
+
+-> In our system if cost of creating an instance of a class is high and
+we need a large number of objects of this class for short duration, then we can use object pool
+
