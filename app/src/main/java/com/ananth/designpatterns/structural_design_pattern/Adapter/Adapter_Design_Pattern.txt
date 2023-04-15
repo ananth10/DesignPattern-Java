@@ -1,0 +1,4 @@
+What is Adapter?
+
+->We have an existing object which provides the functionality that client needs.
+But client code cannot use this object because it expects an object with different interface.
