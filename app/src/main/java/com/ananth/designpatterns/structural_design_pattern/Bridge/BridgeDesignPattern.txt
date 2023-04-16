@@ -1,0 +1,7 @@
+What is Bridge?
+
+-> Our Implementations and abstractions are generally coupled to each other
+in normal inheritance.
+
+-> Using bridge pattern we can  decouple them so they can both change without
+affecting each other.
