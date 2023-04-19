@@ -1,0 +1,4 @@
+What is Composite Design Pattern?
+
+->We have part-whole relationship or hierarchy of objects and we want to be able to treat all
+objects in this hierarchy uniformly.
