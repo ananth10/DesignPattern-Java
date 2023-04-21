@@ -1,0 +1,3 @@
+What is the Flyweight design pattern?
+
+-> Our system needs a large number of objects of particular class & maintaining these instances is a performance concern.
