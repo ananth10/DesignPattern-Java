@@ -1,0 +1,3 @@
+What is the chain of responsibility?
+
+->We need to avoid coupling the code which sends request to the code which handles the request.

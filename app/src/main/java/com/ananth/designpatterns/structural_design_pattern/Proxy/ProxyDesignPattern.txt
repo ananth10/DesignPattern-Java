@@ -1,0 +1,3 @@
+What is Proxy design pattern?
+
+->We need to provide a placeholder or surrogate to another object.
