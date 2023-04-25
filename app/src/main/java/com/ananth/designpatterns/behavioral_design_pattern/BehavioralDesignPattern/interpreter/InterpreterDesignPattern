@@ -1,0 +1,4 @@
+What is the interpreter?
+
+-> We use this pattern when we want to process a simple "language" with rules or grammar.
+ e.g -> File access requires user role and admin role.
