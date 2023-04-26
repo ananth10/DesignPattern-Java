@@ -1,0 +1,4 @@
+What is mediator design pattern?
+
+->Mediator encapsulate how a set of objects interact with each other. due to this encapsulation
+there is loose coupling between the interacting objects.
