@@ -1,0 +1,4 @@
+What is an Iterator?
+
+->Iterator allows a way to access elements/children of an aggregate object in sequence
+while hiding the actual internal data structure used.
