@@ -1,0 +1,4 @@
+What is memento design pattern?
+
+->When we want to store object's state without exposing internal details about the state then
+we can use memento design pattern.
