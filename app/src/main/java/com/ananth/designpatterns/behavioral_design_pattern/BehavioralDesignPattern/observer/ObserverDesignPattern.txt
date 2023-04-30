@@ -1,0 +1,3 @@
+What is observer design pattern?
+
+->Using observer design pattern we can notify multiple objects whenever an object changes state.
