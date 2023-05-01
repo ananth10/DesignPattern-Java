@@ -33,7 +33,7 @@ public class Order {
     public void addItem(double price) {
         itemCost += price;
         count++;
-        observerList.forEach(order->order.updated(this));
+        observerList.forEach(order -> order.updated(this));
     }
 
     public int getCount() {
