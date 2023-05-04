@@ -1,0 +1,5 @@
+What is the Strategy Design Pattern?
+
+->Strategy design pattern allows us to encapsulate an algorithm in a class.
+so now we can configure our context or main object with an object of this class,
+to change the algorithm used to perform given operation.
