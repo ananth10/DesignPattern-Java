@@ -1,0 +1,4 @@
+What is the visitor design pattern?
+
+->Visitor pattern allows us to define new operations that can be performed on an object without
+changing the class definition of the object.
