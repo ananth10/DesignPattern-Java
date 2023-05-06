@@ -1,0 +1,4 @@
+What is a null object design pattern?
+
+->We use "null" value to represent an absence of object. using "Null Object" pattern
+alternate representation to indicate an absence of object.
